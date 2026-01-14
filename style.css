@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Nosifer&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #3c939e;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.397);
+    margin: auto;
+}
+
+
+.login-icon i {
+    font-size: 50px;
+    color: #000;
+}
+
+.login-icon {
+    display: block;
+    margin: 20px;
+    text-align: center;
+}
+
+h2.login-topic {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+form input[type="text"],
+form input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #034888;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button[type="submit"] {
+    background-color: #034888;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+form label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.divider {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+}
+
+.divider .divider-line {
+    border-top: 1px solid #345e85;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.divider span {
+    background-color: #fff;
+    padding: 0 10px;
+    position: relative;
+    z-index: 2;
+    color: #345e85;
+    font-weight: 600;
+}
+
+button.btn-social{
+    background-color: #79d5ec;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+
+button.btn-social i{
+    margin-right: 10px;
+    font-size: 1.8rem;
+}
+
+.signup-link a {
+    color: #089ea3;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+button.btn-social:hover {
+    background-color: #034888;
+    color: #ffffff;
+}
+
+
+

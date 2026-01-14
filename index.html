@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from sign in</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    <div class="container">
+        <div class="login-icon">
+            <i class="fa-brands fa-github"></i>
+        </div>
+        <h2 class="login-topic">Sign In</h2>
+
+        <form method="post" action="#">
+            <label for="username">Username or Email</label>
+            <input type="text" id="username" name="username" required
+            placeholder="Enter your username or email">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required
+            placeholder="Enter your password">
+
+            <button type="submit" class="btn-submit">Sign In</button>
+
+            <div class="divider">
+                <hr class="divider-line">
+                <span class="divider-text">OR</span>
+            </div>
+            <button class="btn-social">
+                <i class="fa-brands fa-google"></i> 
+                Sign in with Google
+            </button>
+
+            <button class="btn-social">
+                <i class="fa-brands fa-apple"></i> 
+                Sign in with Apple
+            </button>
+
+            <div class="signup-link">
+                <span>New to GitHub</span>
+                <a href="Create account">Create an account</a>
+                
+            </div>
+    
+        </form>
+    </div>
+</body>
+</html>
