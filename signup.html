@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing-up</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="login-icon">
+            <i class="fa-brands fa-github"></i>
+        </div>
+        <h2 class="login-topic">Create your account</h2>
+        <form method="post" action="#">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required
+            placeholder="Enter your email address">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required
+            placeholder="Create a password">
+            <h5>Password should be at least 15 characters OR at least 8 characters including a number and a lowercase letter.</h5>
+
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required
+            placeholder="Enter your username">
+            <h5>Username may only contain alphanumeric characters or single hyphens, and cannot begin or end with a hyphen.</h5>
+
+            <label for="Country/Region">Your Country/Region</label>
+            <select class="From-select" id="Country/Region" name="Country/Region" required>
+                <option value="">Select your country or region</option>
+                <option value="USA">United States</option>
+                <option value="Canada">Canada</option>
+                <option value="UK">United Kingdom</option>
+                <option value="Australia">Australia</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="India">India</option>
+                <option value="China">China</option>
+                <option value="Japan">Japan</option>
+                <option value="North Korean">North Korea</option>
+                <option value="South Korea">South Korea</option>
+                <option value="Russia">Russia</option>
+                <option value="Africa">Africa</option>
+                <option value="Egypt">Egypt</option>
+                <option value="Earthnoid">Earthnoid</option>
+                <option value="Spacenoid">Spacenoid</option>
+                <option value="Autobot">Autobot</option>
+                <option value="Decepticon">Decepticon</option>
+                <option value="Atlantean">Atlantean</option>
+                <option value="Saiyan">Saiyan</option>
+                <option value="Namekian">Namekian</option>
+                <option value="Principality of Zeon">Principality of Zeon</option>
+                <option value="Earth Federation">Earth Federation</option>
+                <option value="Jupiter Empire">Jupiter Empire</option>
+                <option value="Other">Other</option>
+            </select>
+            <h5>For compliance reasons, we're required to collect country information to send you occasional updates and announcements.</h5>
+
+
+            <label for="preferences">Email preferences</label>
+            <div class="checkbox">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to receive occasional product updates, announcements, and offers from GitHub.</label>
+            </div>
+
+            <button type="submit" class="btn-submit">Create account</button>
+
+            <div class="divider">
+                <hr class="divider-line">
+                <span class="divider-text">OR</span>
+            </div>
+            <button class="btn-social">
+                <i class="fa-brands fa-google"></i> 
+                Sign up with Google
+            </button>
+
+            <button class="btn-social">
+                <i class="fa-brands fa-apple"></i> 
+                Sign up with Apple
+            </button>
+
+            <div class="signup-link">
+                <span>Already have an account?</span>
+                <a href="index.html">Sign in</a>
+
+                <h5>By creating an account, you agree to the <u>Terms of Service</u>. For more information about GitHub's privacy practices,
+                    see the <u>GitHub Privacy Statement</u>. We'll occasionally send you account-related emails.</h5>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
